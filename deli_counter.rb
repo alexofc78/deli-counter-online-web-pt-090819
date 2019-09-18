@@ -1,1 +1,13 @@
-# Write your code here.
+def line(katz_deli)
+  katz_deli = []
+  puts "The line is currently empty."
+end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  "Welcome, " name ". You are number " katz_deli.length " in line."
+end
+
+def now_serving(katz_deli)
+  
+end
