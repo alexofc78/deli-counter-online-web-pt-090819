@@ -4,8 +4,10 @@ def line(array)
   elsif
   phrase = "The line is currently:"
   array.each_with_index do |index, name|
-    final_phrase = phrase + " #{index"
-    
+    final_phrase = phrase + " #{index + 1}. #{name}."
+  end
+  puts final_phrase
+end
 end
 
 def take_a_number(katz_deli, name)
