@@ -1,7 +1,7 @@
 def line(array)
   if array.length == 0
   puts "The line is currently empty."
-  elsif array
+  elsif
 end
 
 def take_a_number(katz_deli, name)
