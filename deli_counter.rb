@@ -3,7 +3,7 @@ def line(array)
   puts "The line is currently empty."
   elsif
   phrase = "The line is currently:"
-  array.each_with_index do |index, name|
+  array.each_with_index do |name, index|
     final_phrase = phrase + " #{index + 1}. #{name}."
   end
   puts final_phrase
