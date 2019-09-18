@@ -4,7 +4,7 @@ def line(array)
   elsif
   phrase = "The line is currently:"
   array.each_with_index do |name, index|
-    phrase = phrase + " #{index + 1}. #{name}."
+    phrase = phrase + " #{index + 1}. #{name}"
   end
   puts phrase
 end
